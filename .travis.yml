@@ -1,9 +1,16 @@
 language: node_js
-notifications:
-  email: rafaelamaralmario@gmail.com
 node_js:
-  - "12.18.2"
-before_script:
-- npm install
+  - "stable"
+cache:
+  directories:
+    - node_modules
 script:
-- npm run test
+  - npm test
+  - npm run build
+deploy:
+  provider: surge
+  skip_cleanup: true
+  domain: rafael-mario-driving-school.surge.sh
+  project: ./build/
+on:
+  branch: master
