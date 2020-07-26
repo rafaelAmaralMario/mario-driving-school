@@ -1,7 +1,7 @@
 # Mario Driving School
 [![Build Status](https://travis-ci.org/rafaelAmaralMario/mario-driving-school.svg?branch=master)](https://travis-ci.org/rafaelAmaralMario/mario-driving-school)
 
-Project in React that will display a single page for my fake driving school.
+Project in React that will display a single page for my fake driving school[SITE](http://rafael-mario-driving-school.surge.sh/).
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
@@ -75,7 +75,7 @@ yarn start
 ```
 
 
-After running the server, you can finally see the project into: 
+After running the server, you can finally see the project: 
 
 ```
 http://localhost:3000/
