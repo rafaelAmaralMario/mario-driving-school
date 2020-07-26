@@ -9,5 +9,3 @@ deploy:
   cleanup: true
   domain: rafael-mario-driving-school.surge.sh
   project: ./build/
-on:
-  branch: master
