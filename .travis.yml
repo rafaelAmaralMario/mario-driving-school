@@ -6,6 +6,7 @@ script:
   - npm run build
 deploy:
   provider: surge
+  cleanup: true
   domain: rafael-mario-driving-school.surge.sh
   project: ./build/
 on:
