@@ -1,9 +1,11 @@
 language: node_js
 node_js:
   - "12"
+before_install:
+  - rm -rf yarn.lock package-lock.json node_modules/
 script:
-  - yarn test
-  - yarn build
+  - npm test
+  - npm run build
 deploy:
   provider: surge
   cleanup: true
