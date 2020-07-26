@@ -1,4 +1,6 @@
 # Mario Driving School
+[![Build Status](https://travis-ci.org/rafaelAmaralMario/mario-driving-school.svg?branch=master)](https://travis-ci.org/rafaelAmaralMario/mario-driving-school)
+
 Project in React that will display a single page for my fake driving school.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -106,6 +108,7 @@ yarn test
 - [Jest](https://jestjs.io/)
 - [Testing-Library](https://testing-library.com/docs/intro)
 - [Travis](https://travis-ci.org/)
+- [Surge](https://surge.sh/)
 
 ## Author
 
